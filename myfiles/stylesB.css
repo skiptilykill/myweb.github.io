@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+img{
+    border-radius: 500px;
+    width: 50%;
+    height: auto;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+}
+h2{
+	text-align: center;
+}
+label{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 35px;
+  text-align: center;
+  background: rgb(130,130,150);
+  font-size: 2.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 4px;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+input:checked ~ .Menu{
+  position: absolute;
+  left: 0px;
+  transition: all 0.5s ease;
+}
+.Menu{
+	position: absolute;
+	top: 36px;
+	left: -420px;
+	font-family: 'Lobster', cursive;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: left;
+	display: flex;
+	flex-flow: row;
+	background-color: rgba(150,150,150,0.5);
+	transition: all 0.5s ease;
+
+}
+.menu{
+	display: flex;
+	flex-flow: row;
+	text-align: center;
+}
+li{
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid black;
+	background-color: rgb(130,130,150);
+	text-decoration: none;
+	transition: all 0.1s linear;
+}
+li:hover{
+	background-color: lightblue;
+}
+
+a:link{
+	color: orange;
+}
+a:visited{
+	color: orange;
+}
+.titleColor{
+	color: salmon;
+}
+.titlecolor2{
+	color: antiquewhite;
+}
+
+
+@media screen and (min-width: 0px){
+	.menu{
+		padding: 0px;
+		font-size: 12px;
+		display: flex;
+		flex-flow: row;
+	}
+	.menu li{
+		padding: 0px;
+	}
+	body{
+		background-color: rgba(50,50,50, 1);
+	}
+	.sand{
+		margin: 0 auto;
+		width: 350px;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		border-radius: 50px;
+		height: 1500px;
+		color: white;
+		margin-top: 80px;
+		background: rgba(100,100,100,0.5);
+		text-align: center;
+	}
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+}
+
+
+@media screen and (min-width: 37.5em){
+	.menu{
+		font-size: 20px;
+		display: flex;
+		flex-flow: row;
+	}
+	body{
+		background-image: url("bak.jpg");
+	}
+	.sand{
+		margin: 0 auto;
+		width: 350px;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		height: 1500px;
+		color: white;
+		margin-top: 100px;
+	}
+
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+}
+@media screen and (min-width: 48em){
+	.Menu{
+		display: flex;
+		flex-flow: column;
+		width: 200px;
+		height: 80%;
+		position: fixed;
+	}
+	.menu{
+		display: flex;
+		flex-flow: column;
+		font-size: 26px;
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	body{
+		background-image: url("bak.jpg");
+	}
+	.sand{
+		margin: 0 auto;
+		width: 350px;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		height: 1500px;
+		color: white;
+		margin-top: 0px;
+	}
+
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+}
+@media screen and (min-width: 60em){
+	.Menu{
+		display: flex;
+		flex-flow: column;
+		width: 200px;
+		height: 80%;
+		position: fixed;
+	}
+	.menu{
+		display: flex;
+		flex-flow: column;
+		font-size: 26px;
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	body{
+		background-image: url("bak.jpg");
+	}
+	.sand{
+		margin: 0 auto;
+		width: 540px;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		height: 1500px;
+		color: white;
+		margin-top: 0px;
+	}
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+}
+@media screen and (min-width: 80em){
+	.Menu{
+		display: flex;
+		flex-flow: column;
+		width: 200px;
+		height: 80%;
+		position: fixed;
+	}
+	.menu{
+		display: flex;
+		flex-flow: column;
+	}
+	li{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.Heim{
+		position: static;
+	}
+	.sand{
+		margin: 0 auto;
+		width: 750px;
+		box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+		height: 1500px;
+		color: white;
+		margin-top: 0px;
+		padding: 0px 100px 10px 100px;
+	}
+	body{
+		background-image: url("bak.jpg");
+		height: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+}
